@@ -1,0 +1,563 @@
+* Acquiring IIO context
+
+[ context_rx | 328 ] 
+
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 48
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 50
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 51
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+* Acquiring AD9361 streaming devices
+* Configuring AD9361 for streaming
+* Acquiring AD9361 phy channel 0
+[line : 826 func : iiod_client_attr_write] ret = 52
+[line : 831 func : iiod_client_attr_write] ret = 11
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 11
+[line : 826 func : iiod_client_attr_write] ret = 54
+[line : 831 func : iiod_client_attr_write] ret = 7
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 55
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 7
+
+[ rf_bandwidth | 2000000 ] 
+[line : 826 func : iiod_client_attr_write] ret = 49
+[line : 831 func : iiod_client_attr_write] ret = 8
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 56
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 8
+
+[ sampling_frequency | 2100000 ] 
+[line : 826 func : iiod_client_attr_write] ret = 55
+[line : 831 func : iiod_client_attr_write] ret = 8
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 56
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 8
+
+[  errchk v: | 0 ] 
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 56
+
+[  errchk v: | 0 ] 
+
+[ get sampling_frequency | 2100000 ] 
+[line : 826 func : iiod_client_attr_write] ret = 49
+[line : 831 func : iiod_client_attr_write] ret = 3
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 51
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 3
+
+[ hardwaregain | 0 ] 
+
+* Acquiring AD9361 RX lo channel
+[line : 826 func : iiod_client_attr_write] ret = 51
+[line : 831 func : iiod_client_attr_write] ret = 11
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 11
+* Initializing AD9361 IIO streaming channels
+* Enabling IIO streaming channels
+* Creating non-cyclic IIO buffers with 1 MiS
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 48
+
+[ initialize_device_rx | 384 ] 
+
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 48
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+size rx data: 150000
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+FS: 2.1
+N_FFT: 128
+CFO :405.703
+* Destroying streams
+* Destroying buffers
+* Destroying channel masks
+* Destroying context
+* Acquiring IIO context
+
+[ context_rx | 328 ] 
+
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 48
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 50
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 51
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 54
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 57
+* Acquiring AD9361 streaming devices
+* Configuring AD9361 for streaming
+* Acquiring AD9361 phy channel 0
+[line : 826 func : iiod_client_attr_write] ret = 52
+[line : 831 func : iiod_client_attr_write] ret = 11
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 49
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 11
+[line : 826 func : iiod_client_attr_write] ret = 54
+[line : 831 func : iiod_client_attr_write] ret = 7
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 55
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 7
+
+[ rf_bandwidth | 2000000 ] 
+[line : 826 func : iiod_client_attr_write] ret = 49
+[line : 831 func : iiod_client_attr_write] ret = 8
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 56
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 8
+
+[ sampling_frequency | 1920000 ] 
+[line : 826 func : iiod_client_attr_write] ret = 55
+[line : 831 func : iiod_client_attr_write] ret = 8
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 45
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = -22
+
+[line : 826 func : iiod_client_attr_write] ret = 55
+[line : 831 func : iiod_client_attr_write] ret = 8
+[line : 148 func : iiod_client_read_integer] first = 0
+[line : 149 func : iiod_client_read_integer] buf[first] = 56
+[line : 836 func : iiod_client_attr_write] ret = 0
+[line : 837 func : iiod_client_attr_write] resp = 8
+
+
+[  errchk v: | -22 ] 
+* Destroying streams
+* Destroying buffers
+* Destroying channel masks
+* Destroying context
+* Acquiring IIO context
+
+[ context_rx | 328 ] 
+
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 152 func : iiod_client_read_integer] buf[first] = 45
+[line : 153 func : iiod_client_read_integer] value = -22
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 152 func : iiod_client_read_integer] buf[first] = 48
+[line : 153 func : iiod_client_read_integer] value = 0
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 152 func : iiod_client_read_integer] buf[first] = 45
+[line : 153 func : iiod_client_read_integer] value = -22
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 130 func : iiod_client_read_integer] buf[first] = 50
+[line : 152 func : iiod_client_read_integer] buf[first] = 50
+[line : 153 func : iiod_client_read_integer] value = 24806
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 51
+[line : 130 func : iiod_client_read_integer] buf[first] = 51
+[line : 152 func : iiod_client_read_integer] buf[first] = 51
+[line : 153 func : iiod_client_read_integer] value = 3
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 14
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 6
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 12
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 130 func : iiod_client_read_integer] buf[first] = 57
+[line : 152 func : iiod_client_read_integer] buf[first] = 57
+[line : 153 func : iiod_client_read_integer] value = 9
+* Acquiring AD9361 streaming devices
+* Configuring AD9361 for streaming
+* Acquiring AD9361 phy channel 0
+[line : 830 func : iiod_client_attr_write] ret = 52
+[line : 835 func : iiod_client_attr_write] ret = 11
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 11
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 11
+[line : 830 func : iiod_client_attr_write] ret = 54
+[line : 835 func : iiod_client_attr_write] ret = 7
+[line : 130 func : iiod_client_read_integer] buf[first] = 55
+[line : 130 func : iiod_client_read_integer] buf[first] = 55
+[line : 152 func : iiod_client_read_integer] buf[first] = 55
+[line : 153 func : iiod_client_read_integer] value = 7
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 7
+
+[ rf_bandwidth | 2000000 ] 
+[line : 830 func : iiod_client_attr_write] ret = 49
+[line : 835 func : iiod_client_attr_write] ret = 8
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 152 func : iiod_client_read_integer] buf[first] = 56
+[line : 153 func : iiod_client_read_integer] value = 8
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 8
+
+[ sampling_frequency | 2100000 ] 
+[line : 830 func : iiod_client_attr_write] ret = 55
+[line : 835 func : iiod_client_attr_write] ret = 8
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 152 func : iiod_client_read_integer] buf[first] = 56
+[line : 153 func : iiod_client_read_integer] value = 8
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 8
+
+[  errchk v: | 0 ] 
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 130 func : iiod_client_read_integer] buf[first] = 56
+[line : 152 func : iiod_client_read_integer] buf[first] = 56
+[line : 153 func : iiod_client_read_integer] value = 8
+
+[  errchk v: | 0 ] 
+
+[ get sampling_frequency | 2100000 ] 
+[line : 830 func : iiod_client_attr_write] ret = 49
+[line : 835 func : iiod_client_attr_write] ret = 3
+[line : 130 func : iiod_client_read_integer] buf[first] = 51
+[line : 130 func : iiod_client_read_integer] buf[first] = 51
+[line : 152 func : iiod_client_read_integer] buf[first] = 51
+[line : 153 func : iiod_client_read_integer] value = 3
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 3
+
+[ hardwaregain | 0 ] 
+
+* Acquiring AD9361 RX lo channel
+[line : 830 func : iiod_client_attr_write] ret = 51
+[line : 835 func : iiod_client_attr_write] ret = 11
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 130 func : iiod_client_read_integer] buf[first] = 49
+[line : 152 func : iiod_client_read_integer] buf[first] = 49
+[line : 153 func : iiod_client_read_integer] value = 11
+[line : 840 func : iiod_client_attr_write] ret = 0
+[line : 841 func : iiod_client_attr_write] resp = 11
+* Initializing AD9361 IIO streaming channels
+* Enabling IIO streaming channels
+* Creating non-cyclic IIO buffers with 1 MiS
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 130 func : iiod_client_read_integer] buf[first] = 45
+[line : 152 func : iiod_client_read_integer] buf[first] = 45
+[line : 153 func : iiod_client_read_integer] value = -22
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 152 func : iiod_client_read_integer] buf[first] = 48
+[line : 153 func : iiod_client_read_integer] value = 0
+
+[ initialize_device_rx | 384 ] 
+
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 130 func : iiod_client_read_integer] buf[first] = 48
+[line : 152 func : iiod_client_read_integer] buf[first] = 48
+[line : 153 func : iiod_client_read_integer] value = 0
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+size rx data: 150000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 130 func : iiod_client_read_integer] buf[first] = 54
+[line : 152 func : iiod_client_read_integer] buf[first] = 54
+[line : 153 func : iiod_client_read_integer] value = 60000
+FS: 2.1
+N_FFT: 128
+CFO :-1484.48
+* Destroying streams
+* Destroying buffers
+* Destroying channel masks
+* Destroying context

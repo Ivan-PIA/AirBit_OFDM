@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/plot.dir/File_converter/file_converter.cpp.o"
+  "CMakeFiles/plot.dir/File_converter/file_converter.cpp.o.d"
+  "CMakeFiles/plot.dir/OFDM/fft/fft.cpp.o"
+  "CMakeFiles/plot.dir/OFDM/fft/fft.cpp.o.d"
+  "CMakeFiles/plot.dir/OFDM/freq_offset.cpp.o"
+  "CMakeFiles/plot.dir/OFDM/freq_offset.cpp.o.d"
+  "CMakeFiles/plot.dir/OFDM/ofdm_demod.cpp.o"
+  "CMakeFiles/plot.dir/OFDM/ofdm_demod.cpp.o.d"
+  "CMakeFiles/plot.dir/OFDM/ofdm_mod.cpp.o"
+  "CMakeFiles/plot.dir/OFDM/ofdm_mod.cpp.o.d"
+  "CMakeFiles/plot.dir/OFDM/sequence.cpp.o"
+  "CMakeFiles/plot.dir/OFDM/sequence.cpp.o.d"
+  "CMakeFiles/plot.dir/QAM/qam_demod.cpp.o"
+  "CMakeFiles/plot.dir/QAM/qam_demod.cpp.o.d"
+  "CMakeFiles/plot.dir/QAM/qam_mod.cpp.o"
+  "CMakeFiles/plot.dir/QAM/qam_mod.cpp.o.d"
+  "CMakeFiles/plot.dir/Segmenter/segmenter.cpp.o"
+  "CMakeFiles/plot.dir/Segmenter/segmenter.cpp.o.d"
+  "CMakeFiles/plot.dir/ad9361/ad9361.cpp.o"
+  "CMakeFiles/plot.dir/ad9361/ad9361.cpp.o.d"
+  "CMakeFiles/plot.dir/log_level/log.cpp.o"
+  "CMakeFiles/plot.dir/log_level/log.cpp.o.d"
+  "CMakeFiles/plot.dir/other/plots.cpp.o"
+  "CMakeFiles/plot.dir/other/plots.cpp.o.d"
+  "CMakeFiles/plot.dir/soapy/soapy_drawplot.cpp.o"
+  "CMakeFiles/plot.dir/soapy/soapy_drawplot.cpp.o.d"
+  "CMakeFiles/plot.dir/src/correlation/time_corr.cpp.o"
+  "CMakeFiles/plot.dir/src/correlation/time_corr.cpp.o.d"
+  "CMakeFiles/plot.dir/src/process_buffer/processor.cpp.o"
+  "CMakeFiles/plot.dir/src/process_buffer/processor.cpp.o.d"
+  "CMakeFiles/plot.dir/src/test/tx2_plot.cpp.o"
+  "CMakeFiles/plot.dir/src/test/tx2_plot.cpp.o.d"
+  "plot"
+  "plot.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/plot.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

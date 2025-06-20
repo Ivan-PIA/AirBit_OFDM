@@ -1,0 +1,9 @@
+﻿FFT Size                | 128  | 256   | 512   |
+N_Resource Blocks       | 6    | 15    | 25    |
+Guard Subcarriers       | 55   | 75    | 211   |
+N_PILOTS                | 12   | 30    | 50    |
+normal   cyclic prefix  | 10/9 | 20/18 | 40/36 |
+extended cyclic prefix  | 32   | 64    | 128   |
+                        |      |       |       |
+Channel Bandwidth       | 1.4  | 3     | 5     |
+Sampling Frequency      | 1.92 | 3.84  | 7.68  |

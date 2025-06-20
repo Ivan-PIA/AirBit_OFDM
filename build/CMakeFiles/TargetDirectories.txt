@@ -1,0 +1,4 @@
+/home/ivan/Desktop/OFDM_transceiver/build/CMakeFiles/plot.dir
+/home/ivan/Desktop/OFDM_transceiver/build/CMakeFiles/tx.dir
+/home/ivan/Desktop/OFDM_transceiver/build/CMakeFiles/edit_cache.dir
+/home/ivan/Desktop/OFDM_transceiver/build/CMakeFiles/rebuild_cache.dir
